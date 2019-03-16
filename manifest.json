@@ -1,0 +1,22 @@
+{
+  "short_name": "digitalgulbarga.com",
+  "name": "Gulbarga",
+  "background_color": "#ffff",
+  "theme_color": "#3367D6",
+  "orientation":"potrait",
+  "start_url": "https://abhiv2018.github.io/my-gulbarga/index",
+	"display": "standalone",
+  
+  "icons": [
+    {
+      "src": "192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
