@@ -25,8 +25,10 @@ My Gulbarga
 <div><h1>digitalgulbarga.com</h1>
 	
 	
-	<p> Gulbarga is a place where people live with love &amp; respect with each other. Celebrate all the fesivals together. People here are proud to be kannadian &amp; live in gulbarga. Gulbarga is our PRIDE</p><hr>
+	<p> Gulbarga is a place where people live with love &amp; respect with each other. Celebrate all the fesivals together. People here are proud to be kannadian &amp; live in gulbarga. Gulbarga is our PRIDE</p>
 	
+	<p>Follow us on instagram</p>
+	<a href=#><img src="insta.jpg" class="responsive"> Tap on the image to follow us on instagram</a><hr>
 	<br>
 	<h2>Gulbarga Attraction</h2><br>
 	<a href="Blog2019/Gulbarga/attraction.html"><img src="Attraction.jpg" class="responsive"> Tap on the image to view more</a><hr>
@@ -54,25 +56,16 @@ My Gulbarga
 	<h2>Success stories</h2><br>
 	<a href="Blog2019/Success/success.html"><img src="success.jpg" class="responsive">Tap on the image to view more</a><hr>
 	
-	<script>
 	
-	btnAdd.addEventListener('click', (e) => {
-  // hide our user interface that shows our A2HS button
-  btnAdd.style.display = 'none';
-  // Show the prompt
-  deferredPrompt.prompt();
-  // Wait for the user to respond to the prompt
-  deferredPrompt.userChoice
-    .then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt');
-      } else {
-        console.log('User dismissed the A2HS prompt');
-      }
-      deferredPrompt = null;
-    });
-});
-	</script>
+		<h2>Amazon Best Buy</h2><br>
+	<a href="#"><img src="amazon.jpg" class="responsive">Tap on the image to view more</a><hr>
+	
+	<h2>Gulbarga's Favorite choice survey</h2><br>
+	<a href="#"><img src="survey.png" class="responsive">Tap on the image to view more</a><hr>
+	
+	
+
+	
 	
 	
 	
@@ -83,10 +76,40 @@ My Gulbarga
 	
 	
 	
+	<div class="container" "text-center">
+<div class="row">
+<div class="col-xs-12 col-md-12 col-md-offset-0.5">
+	<div class="counts">
+		<P>Number of Webpage visitors</P>
+		<div id="CounterVisitor">
+          <span class="counter-item">0</span>
+         
+</div>
+	
+	</div>
+	</div>
+		</div>
+	</div>
+	<hr>
 
 	
 	
 
 	
 	</body>
+	
+	<script>
+	    var n = localStorage.getItem('on_load_counter');
+
+    if (n === null) {
+        n = 0;
+    }
+
+    n++;
+
+    localStorage.setItem("on_load_counter", n);
+
+    document.getElementById('CounterVisitor').innerHTML = n;
+		</script>
+
 </html>
