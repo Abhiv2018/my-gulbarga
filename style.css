@@ -1,9 +1,25 @@
 
 
+.color{
+	background-color: white;
+}
+
 .counts{
 	color: blueviolet;
 }
 
+
+.footer {
+	padding: 20px;
+   position:relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   text-align: center;
+	text-decoration: none;
+}
 
 
  h1 {
@@ -14,8 +30,8 @@
 }
 
 body{
-
-
+	background-color: black;
+	color: white;
 
 }
 
